@@ -7,4 +7,5 @@
 #root {
   min-height: 100vh;
   display: flex;
+  font-family: "Outfit", sans-serif;
 }
