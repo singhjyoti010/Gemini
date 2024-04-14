@@ -1,0 +1,77 @@
+.sidebar {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 25px 15px;
+}
+
+.sidebar img {
+    width: 20px;
+}
+
+.menu {
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.new-chat {
+    display: inline-flex;
+    margin-top: 50px;
+    gap: 10px;
+    align-items: center;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.recent-title {
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+.recent-item {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    align-items: start;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #282828;
+}
+
+.recent-item:hover {
+    background-color: #e2e6eb;
+}
+
+/* 
+.bottom {
+    display: inline-flex;
+    flex-direction: column;
+} */
+
+.help, .activity, .settings {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.help {
+    padding-right: 10px;
+}
+
+.activity {
+
+}
+
+.settings {
+
+}
