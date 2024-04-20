@@ -1,6 +1,6 @@
 import React from "react";
-import './sidebar.css'
-import assetsIcon from "../../Helper/assets"
+import './sidebar.css';
+import assetsIcon from "../../Helper/assets";
 
 export default function Sidebar() {
     const [collapsed, setCollapsed] = React.useState(true)

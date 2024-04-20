@@ -3,6 +3,7 @@ import add from "../Assets/icons/add.svg";
 import chat from "../Assets/icons/chat.svg";
 import close from "../Assets/icons/close.svg";
 import dropdown from "../Assets/icons/dropdown.svg";
+import explore from "../Assets/icons/explore.svg";
 import help from "../Assets/icons/help.svg";
 import history from "../Assets/icons/history.svg";
 import listen from "../Assets/icons/listen.svg";
@@ -14,6 +15,7 @@ import settings from "../Assets/icons/settings.svg";
 import share from "../Assets/icons/share.svg";
 import thumb_up from "../Assets/icons/thumb_up.svg";
 import thumb_down from "../Assets/icons/thumb_down.svg";
+import user_profile from "../Assets/icons/user_profile.png"
 
 const assetsIcon = {
     add_photo,
@@ -21,6 +23,7 @@ const assetsIcon = {
     chat,
     close,
     dropdown,
+    explore,
     help,
     history,
     listen,
@@ -31,7 +34,8 @@ const assetsIcon = {
     settings,
     share,
     thumb_up,
-    thumb_down
+    thumb_down,
+    user_profile
 }
 
 export default assetsIcon
